@@ -4,7 +4,7 @@ const path = require("path");
 const api = require("./routes/routes");
 //This line imports the router module from the ./routes directory, this module contains the route handlers for the API endpoints
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 //PORT number defaults to port 3001
 
 const app = express();
